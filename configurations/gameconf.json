@@ -1,0 +1,36 @@
+{
+    "game_confgurations": [
+        {
+            "name":"4 Players",
+            "description": "Basic game for 4 players",
+            "global_configuration": {
+                "number_of_pawns_by_players": 4,
+                "number_of_players": 4
+            },
+            "board_configuration": {
+                "size": 68,
+                "end_points_position": 4,
+                "start_points_position": 6
+            },
+            "players_configuration": [
+                {
+                    "name": "leo",
+                    "color": "blue",
+                    "team": "team1"
+                }, {
+                    "name": "quentin",
+                    "color": "red",
+                    "team": "team2"
+                }, {
+                    "name": "philippine",
+                    "color": "green",
+                    "team": "team1"
+                }, {
+                    "name": "Adelaide",
+                    "color": "yellow",
+                    "team": "team2"
+                }
+            ]
+        }
+    ]
+}
